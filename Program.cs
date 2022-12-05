@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
 
-            int maxNumber = GenericTestMax.MaxIntNumber(64, 154, 200);
-            Console.WriteLine(" Maximum Number is : " + maxNumber);
+            double maxNumber = GenericTestMax.MaxFloatNumber(64.3, 15.3, 14.2);
+            Console.WriteLine(" Maximum float Number is : " + maxNumber);
         }
     }
 }

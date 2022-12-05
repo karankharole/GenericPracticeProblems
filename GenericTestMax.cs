@@ -9,7 +9,7 @@ namespace GenericPracticeProblems
     internal class GenericTestMax
     {
 
-        public static int MaxIntNumber(int firstNum, int secondNum, int thirdNum)
+        public static double MaxFloatNumber(double firstNum,double secondNum, double thirdNum)
         {
             if (firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(thirdNum) > 0 || firstNum.CompareTo(secondNum) >= 0 && firstNum.CompareTo(thirdNum) > 0 || firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(thirdNum) >= 0)
             {
