@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            int maxNumber = GenericTestMax.MaxIntNumber(154, 64, 90);
+            int maxNumber = GenericTestMax.MaxIntNumber(64, 154, 90);
             Console.WriteLine(" Maximum Number is : " + maxNumber);
         }
     }
