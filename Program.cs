@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            double maxNumber = GenericTestMax.MaxFloatNumber(64.3, 153.2, 14.2);
+            double maxNumber = GenericTestMax.MaxFloatNumber(64.3, 15.3, 143.2);
             Console.WriteLine(" Maximum float Number is : " + maxNumber);
         }
     }
