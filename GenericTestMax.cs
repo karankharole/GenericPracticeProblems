@@ -8,6 +8,7 @@ namespace GenericPracticeProblems
 {
     internal class GenericTestMax
     {
+
         public static int MaxIntNumber(int firstNum, int secondNum, int thirdNum)
         {
             if (firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(thirdNum) > 0 || firstNum.CompareTo(secondNum) >= 0 && firstNum.CompareTo(thirdNum) > 0 || firstNum.CompareTo(secondNum) > 0 && firstNum.CompareTo(thirdNum) >= 0)
@@ -24,7 +25,7 @@ namespace GenericPracticeProblems
             {
                 return thirdNum;
             }
-            return firstNum;
+            return secondNum;
         }
     }
 }
