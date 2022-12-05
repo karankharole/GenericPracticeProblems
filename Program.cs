@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            string maxString = GenericTestMax.MaxStringValue("Peach" , "Apple" , "Banana");
+            string maxString = GenericTestMax.MaxStringValue("Apple" , "Peach" , "Banana");
             Console.WriteLine(" Maximum String value is : " + maxString);
         }
     }
